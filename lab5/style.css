@@ -20,18 +20,18 @@ body {
 
 font[size="7"], font[size="6"], font[size="5"] {
   font-family: 'Sonsie One', cursive;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #2a2a2a;
+  color: #020202;
 }
 
 font[size="7"] {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: rgb(15, 15, 15);
   text-shadow: 2px 2px 10px black;
 }
 
@@ -52,8 +52,8 @@ p, li, table {
 /* || header layout */
 
 header, nav, article, footer, aside {
-  background-color: #2e7d32;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 article, footer, .secondary {
@@ -130,6 +130,11 @@ article {
 
 .secondary {
   flex: 2;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 footer {
@@ -157,7 +162,7 @@ th[scope="col"] {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #def;
+  background-color: rgb(255, 255, 255);
 }
 
 /* styling content images and audio */
@@ -174,7 +179,7 @@ audio {
 /* Comments styling */
 
 .comments {
-  background-color: #def;
+  background-color: rgb(0, 0, 0);
   padding: 10px;
 }
 
